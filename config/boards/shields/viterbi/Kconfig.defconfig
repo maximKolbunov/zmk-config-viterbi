@@ -1,4 +1,4 @@
-if SHIELD_viterbi_LEFT
+if SHIELD_VITERBI_LEFT
 
     config ZMK_KEYBOARD_NAME
         default "Viterbi"
