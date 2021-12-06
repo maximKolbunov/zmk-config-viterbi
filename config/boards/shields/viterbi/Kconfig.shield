@@ -1,0 +1,5 @@
+config SHIELD_VITERBI_LEFT
+    def_bool $(shields_list_contains,viterbi_left)
+
+config SHIELD_VITERBI_RIGHT
+    def_bool $(shields_list_contains,viterbi_right)
