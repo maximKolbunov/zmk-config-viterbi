@@ -14,31 +14,31 @@
 
         default_layer {
             bindings = <
-             &none   &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                                         &kp N6  &kp N7   &kp N8    &kp N9   &kp N0   &kp BSPC   &none
-             &none   &kp TAB   &kp Q    &kp W    &kp E     &kp R     &kp T                                          &kp Y   &kp U    &kp I     &kp O    &kp P    &kp MINUS  &none
-             &none   &kp LSHFT &kp A    &kp S    &kp D     &kp F     &kp G                                          &kp H   &kp J    &kp K     &kp L    &kp SEMI &kp SQT    &none
-             &none   &kp LCTRL &kp Z    &kp X    &kp C     &kp V     &kp B                                          &kp N   &kp M    &kp COMMA &kp DOT  &kp FSLH &kp BSLH   &kp RET
-             &none   &mo LWR   &kp LALT &kp SQT  &mo LWR   &kp SPACE &kp SPACE                                      &kp LSHFT &kp LSHFT &mo RSE  &kp LBKT &kp RBKT &mo RSE  &none
+             &kp KP_N1  &kp ESC   &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                                         &kp N6  &kp N7   &kp N8    &kp N9   &kp N0   &kp BSPC   &kp KP_N1
+             &kp KP_N2  &kp TAB   &kp Q    &kp W    &kp E     &kp R     &kp T                                          &kp Y   &kp U    &kp I     &kp O    &kp P    &kp MINUS  &kp KP_N2
+             &kp KP_N3  &kp LSHFT &kp A    &kp S    &kp D     &kp F     &kp G                                          &kp H   &kp J    &kp K     &kp L    &kp SEMI &kp SQT    &kp KP_N3
+             &kp KP_N4  &kp LCTRL &kp Z    &kp X    &kp C     &kp V     &kp B                                          &kp N   &kp M    &kp COMMA &kp DOT  &kp FSLH &kp BSLH   &kp KP_N4
+             &kp KP_N5  &mo LWR   &kp LALT &kp SQT  &mo LWR   &kp SPACE &kp SPACE                                      &kp LSHFT &kp LSHFT &mo RSE  &kp LBKT &kp RBKT &mo RSE  &kp KP_N5
             >;
         };
 
         lower_layer {
             bindings = <
-             &none   &kp F12  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                                   &kp F6     &kp F7    &kp F8     &kp F9     &kp F10         &kp F11 &none
-             &none   &trans   &kp EXCL  &kp AT    &kp LBKT &kp RBKT   &kp PIPE                                 &kp UP     &kp KP_N7 &kp KP_N8  &kp KP_N9  &kp KP_ASTERISK &trans  &none
-             &none   &kp CAPS &kp HASH  &kp DLLR  &kp LPAR &kp RPAR   &kp GRAVE                                &kp DOWN   &kp KP_N4 &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &trans  &none
-             &none   &trans   &kp PRCNT &kp CARET &kp LBRC &kp RBRC   &kp TILDE                                &kp INS    &kp KP_N1 &kp KP_N2  &kp KP_N3  &kp KP_SLASH    &trans  &trans
-             &none   &trans   &kp AMPS  &kp ASTRK &trans    &trans    &trans                                   &kp KP_NUM &kp KP_N0 &kp KP_DOT    &trans  &kp KP_EQUAL    &trans  &none
+             &trans  &kp F12  &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                                   &kp F6     &kp F7    &kp F8     &kp F9     &kp F10         &kp F11 &trans
+             &trans  &trans   &kp EXCL  &kp AT    &kp LBKT &kp RBKT   &kp PIPE                                 &kp UP     &kp KP_N7 &kp KP_N8  &kp KP_N9  &kp KP_ASTERISK &trans  &trans
+             &trans  &kp CAPS &kp HASH  &kp DLLR  &kp LPAR &kp RPAR   &kp GRAVE                                &kp DOWN   &kp KP_N4 &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &trans  &trans
+             &trans  &trans   &kp PRCNT &kp CARET &kp LBRC &kp RBRC   &kp TILDE                                &kp INS    &kp KP_N1 &kp KP_N2  &kp KP_N3  &kp KP_SLASH    &trans  &trans
+             &trans  &trans   &kp AMPS  &kp ASTRK &trans    &trans    &trans                                   &kp KP_NUM &kp KP_N0 &kp KP_DOT    &trans  &kp KP_EQUAL    &trans  &trans
             >;
         };
 
         raise_layer {
             bindings = <
-             &none   &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &trans        &none
-             &none   &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_VOL_UP  &none
-             &none   &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_VOL_DN  &none
-             &none   &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_MUTE    &trans
-             &none   &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &trans        &none
+             &trans  &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &trans        &trans
+             &trans  &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_VOL_UP  &trans
+             &trans  &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_VOL_DN  &trans
+             &trans  &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &kp K_MUTE    &trans
+             &trans  &trans    &trans      &trans    &trans    &trans    &trans                                &trans    &trans   &trans    &trans   &trans   &trans        &trans
              >;
         };
 
